@@ -207,8 +207,110 @@ const quizData = {
             ]
         }
     ],
-    'H5': [],
-    'H6': []
+    'H5': [
+        {
+            type: 'multiple-choice',
+            question: 'Wat is het belangrijkste verschil tussen massa en gewicht?',
+            answers: [
+                { text: 'Massa is de hoeveelheid materie (in kg) en is overal gelijk, terwijl gewicht de kracht is waarmee een voorwerp op een steun drukt (in N) en afhangt van de zwaartekracht.', correct: true },
+                { text: 'Massa verandert naarmate je op een andere planeet bent, gewicht blijft altijd constant.', correct: false },
+                { text: 'Er is geen verschil; beide termen worden in de fysica als synoniemen gebruikt en uitgedrukt in kilogram.', correct: false },
+                { text: 'Gewicht is een eigenschap van een voorwerp in rust, massa meet je pas als een voorwerp versnelt.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Welke wet van Newton stelt dat een voorwerp in rust blijft of met constante snelheid rechtlijnig blijft bewegen als de som van de krachten nul is?',
+            answers: [
+                { text: 'De eerste wet van Newton (Wet van de traagheid / inertie).', correct: true },
+                { text: 'De tweede wet van Newton (De hoofdwet van de mechanica: F = m . a).', correct: false },
+                { text: 'De derde wet van Newton (Actie-reactie).', correct: false },
+                { text: 'De universele gravitatiewet.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Volgens de tweede wet van Newton (F_res = m . a), wat gebeurt er met de versnelling (a) als je de resulterende kracht op een constante massa verdubbelt?',
+            answers: [
+                { text: 'De versnelling wordt twee keer zo groot.', correct: true },
+                { text: 'De versnelling wordt gehalveerd.', correct: false },
+                { text: 'De versnelling blijft exact gelijk, want massa is constant.', correct: false },
+                { text: 'De versnelling neemt viermaal toe vanwege de kwadratische verhouding.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Als een boek op een tafel ligt en er een zwaartekracht op werkt, wat is dan de tegenkracht (reactiekracht) volgens de derde wet van Newton (actie-reactie)?',
+            answers: [
+                { text: 'De normaalkracht die de tafel op het boek uitoefent.', correct: true },
+                { text: 'De wrijvingskracht tussen het boek en de lucht.', correct: false },
+                { text: 'De zwaartekracht waarmee de aarde aan de tafel trekt.', correct: false },
+                { text: 'Er is geen tegenkracht omdat het boek stilligt.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat gebeurt er met de remweg van een voertuig als de beginsnelheid verdubbelt (bij gelijkblijvende remkracht)?',
+            answers: [
+                { text: 'De remweg wordt vier keer zo lang, omdat de kinetische energie kwadratisch afhangt van de snelheid.', correct: true },
+                { text: 'De remweg verdubbelt eveneens lineair.', correct: false },
+                { text: 'De remweg blijft gelijk, want de massa van de auto verandert niet.', correct: false },
+                { text: 'De remweg wordt acht keer zo lang.', correct: false }
+            ]
+        }
+    ],
+    'H6': [
+        {
+            type: 'multiple-choice',
+            question: 'Wat is de definitie van de amplitude (A) bij een harmonische trilling?',
+            answers: [
+                { text: 'De maximale uitwijking van het trillende voorwerp ten opzichte van de evenwichtsstand.', correct: true },
+                { text: 'De totale afstand die een deeltje aflegt tijdens één volledige cyclus.', correct: false },
+                { text: 'Het aantal volledige trillingen dat per seconde wordt uitgevoerd.', correct: false },
+                { text: 'De tijd die nodig is om één volledige heen- en weergaande beweging te maken.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Hoe verhouden de frequentie (f in Hz) en de periode (T in s) van een trilling zich tot elkaar?',
+            answers: [
+                { text: 'Ze zijn omgekeerd evenredig met elkaar (f = 1 / T).', correct: true },
+                { text: 'Ze zijn recht evenredig met elkaar (f = T).', correct: false },
+                { text: 'Ze hebben geen wiskundig verband en hangen van andere parameters af.', correct: false },
+                { text: 'De frequentie is altijd het kwadraat van de periode.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat is het kenmerkende verschil tussen een transversale golf en een longitudinale golf?',
+            answers: [
+                { text: 'Bij een transversale golf trillen deeltjes loodrecht op de voortplantingsrichting; bij een longitudinale golf trillen ze parallel aan de voortplantingsrichting.', correct: true },
+                { text: 'Transversale golven hebben geen medium nodig; longitudinale golven wel.', correct: false },
+                { text: 'Bij longitudinale golven bewegen de deeltjes fysiek mee met de golf, bij transversale golven blijven ze stilstaan.', correct: false },
+                { text: 'Licht is een longitudinale golf, terwijl geluid een transversale golf is.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Als de golflengte (lambda) van een golf halveert terwijl de voortplantingssnelheid (v) constant blijft, wat gebeurt er dan met de frequentie (f)?',
+            answers: [
+                { text: 'De frequentie verdubbelt (v = f . lambda).', correct: true },
+                { text: 'De frequentie halveert eveneens.', correct: false },
+                { text: 'De frequentie blijft ongewijzigd.', correct: false },
+                { text: 'De frequentie wordt vier keer zo klein.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat gebeurt er wanneer twee golftoppen elkaar ontmoeten en er constructieve interferentie optreedt?',
+            answers: [
+                { text: 'De amplitudes versterken elkaar, waardoor een tijdelijk grotere top ontstaat.', correct: true },
+                { text: 'De golven heffen elkaar volledig op, waardoor het medium stilvalt.', correct: false },
+                { text: 'De voortplantingssnelheid van beide golven verdubbelt onmiddellijk.', correct: false },
+                { text: 'De frequentie van de resulterende golf halveert spontaan.', correct: false }
+            ]
+        }
+    ]
 };
 
 // Helper functie om een array willekeurig te husselen
