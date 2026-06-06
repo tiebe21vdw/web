@@ -106,6 +106,106 @@ const quizData = {
                 { label: 'De activeringsenergie van de omgekeerde reactie bedraagt ...', answer: '100kJ' },
             ]
         },
+        {
+            type: 'multiple-choice',
+            question: 'Wanneer spreekt men volgens het botsingsmodel van een effectieve botsing?',
+            answers: [
+                { text: 'Als de deeltjes met elkaar in contact komen, voldoende kinetische energie bezitten én de juiste oriëntatie hebben.', correct: true },
+                { text: 'Als de botsende deeltjes aan slechts één van de voorwaarden voldoen. ', correct: false },
+                { text: 'Als de moleculen na de botsing volledig ongewijzigd blijven. ', correct: false },
+                { text: 'Als er enkel een verandering van aggregatietoestand optreedt.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat ontstaat er direct door de opslorping van kinetische energie bij een effectieve botsing? ',
+            answers: [
+                { text: 'Een geactiveerd complex (een onstabiele tussenfase met een hogere energie-inhoud).', correct: true },
+                { text: 'Een stabiel reactieproduct met een lagere energie-inhoud.', correct: false },
+                { text: 'Een inhibitor die de reactie onmiddellijk weer stillegt.', correct: false },
+                { text: 'Een elastische botsing waarbij moleculen ongewijzigd blijven. ', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'De activeringsenergie van de reactie 2NO(g) + Cl2(g) -> 2NOCl(g) is 62kJ en bE = -38kJ. Wat is de activeringsenergie van de omgekeerde reactie? ',
+            answers: [
+                { text: '100kJ ', correct: true },
+                { text: '62kJ', correct: false },
+                { text: '38kJ ', correct: false },
+                { text: '24kJ ', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat gebeurt er in de regel met de ogenblikkelijke reactiesnelheid naarmate een chemische reactie vordert?',
+            answers: [
+                { text: 'Deze neemt bijna altijd af, omdat er steeds minder deeltjes overblijven om effectief mee te botsen. ', correct: true },
+                { text: 'Deze blijft gedurende de hele reactie perfect constant. ', correct: false },
+                { text: 'Exponentiële stijging tot het einde van de reactie.', correct: false },
+                { text: 'Deze is op elk moment exact gelijk aan de gemiddelde reactiesnelheid.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'In welke eenheid wordt de (gemiddelde of ogenblikkelijke) reactiesnelheid uitgedrukt? ',
+            answers: [
+                { text: 'mol . L-1 . s-1 ', correct: true },
+                { text: 'mol . L-1 ', correct: false },
+                { text: 'mol . s-1', correct: false },
+                { text: 'kJ . mol-1', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat laat een Boltzmann-verdeling simpelweg zien in een gas of vloeistof? ',
+            answers: [
+                { text: 'Hoe de snelheid (of kinetische energie) verdeeld is over de deeltjes. ', correct: true },
+                { text: 'De exacte daling van de activeringsenergie bij een reactie.', correct: false },
+                { text: 'De verhouding tussen het totale volume en de druk van het gas.', correct: false },
+                { text: 'Hoeveel reactieproducten er per seconde worden gevormd.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Waarom zorgt een temperatuurverhoging voor een stijging van de reactiesnelheid? ',
+            answers: [
+                { text: 'De deeltjes krijgen een hogere kinetische energie en de kans op effectieve botsingen stijgt.', correct: true },
+                { text: 'De activeringsenergie van de reactie wordt hierdoor permanent verlaagd.', correct: false },
+                { text: 'Het volume van de oplossing neemt af, waardoor de concentratie stijgt.', correct: false },
+                { text: 'De deeltjes krijgen automatisch allemaal de juiste oriëntatie.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Wat is de invloed van de verdelingsgraad op de reactiesnelheid (bijv. fijn gekliefd aanmaakhout)?',
+            answers: [
+                { text: 'Hoe fijner verdeeld, hoe groter de verhouding contactoppervlak/volume, wat de reactie versnelt.', correct: true },
+                { text: 'Hoe fijner verdeeld, hoe kleiner het contactoppervlak en hoe trager de reactie.', correct: false },
+                { text: 'De verdelingsgraad verandert de chemische samenstelling van de stoffen.', correct: false },
+                { text: 'Fijnere verdeling verlaagt de temperatuur van de reagentia.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Hoe beïnvloedt een katalysator een chemische reactie?',
+            answers: [
+                { text: 'Het verlaagt de activeringsenergie door een ander geactiveerd complex te vormen, zonder zelf verbruikt te worden. ', correct: true },
+                { text: 'Het verhoogt het uiteindelijke rendement van de reactieproducten.', correct: false },
+                { text: 'Het verhoogt de gemiddelde kinetische energie van de deeltjes.', correct: false },
+                { text: 'Het wordt volledig opgebruikt om extra warmte te genereren.', correct: false }
+            ]
+        },
+        {
+            type: 'multiple-choice',
+            question: 'Een klontje suiker blijft op tafel weken liggen, maar wordt in het lichaam van een hond meteen verbrand. Wat is de verklaring? ',
+            answers: [
+                { text: 'Enzymen in het lichaam werken als katalysatoren en verlagen de activeringsenergie. ', correct: true },
+                { text: 'De lichaamstemperatuur van een hond is hoog genoeg om de suiker spontaan te laten smelten.', correct: false },
+                { text: 'In het lichaam reageert de suiker uitsluitend met aanwezige inhibitoren.', correct: false },
+                { text: 'De verdelingsgraad van suiker op tafel is te groot om te kunnen branden.', correct: false }
+            ]
+        }
     ],
     'H5': [],
     'H6': []
