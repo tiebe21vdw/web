@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactieve Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <!-- Hoofdstuk Menu -->
+        <div id="menu-container">
+            <h1>Kies een Hoofdstuk</h1>
+            <div class="menu-grid">
+                <button onclick="selectChapter('H3')">H3 Duurzame chemie</button>
+                <button onclick="selectChapter('H4')">H4 Reactiesnelheid</button>
+                <button onclick="selectChapter('H5')">H5 Kracht en beweging</button>
+                <button onclick="selectChapter('H6')">H6 Trillingen en golven</button>
+                <button onclick="selectChapter('ALL')" style="grid-column: span 2; background-color: var(--primary-color); color: white;">Alles door elkaar</button>
+            </div>
+        </div>
+
+        <div id="quiz-content" class="hide">
+            <button id="quit-btn" class="quit-btn" onclick="restartQuiz()">← Terug naar Menu</button>
+
+            <div id="quiz-header">
+                <h2 id="question">Laden van vraag...</h2>
+            </div>
+            <div class="quiz-body">
+                <div class="answer-section">
+                    <!-- Container voor Meerkeuze -->
+                    <div id="answer-buttons" class="btn-grid hide"></div>
+
+                    <!-- Container voor Open Vragen -->
+                    <div id="answer-area" class="hide">
+                        <input type="text" id="answer-input" placeholder="Type je antwoord hier..." autocomplete="off">
+                        <button id="submit-btn" class="next-btn">Controleer antwoord</button>
+                    </div>
+
+                    <!-- Container voor Meerdere Invulvakjes -->
+                    <div id="fill-in-container" class="hide"></div>
+
+                    <div id="feedback-container" class="hide">
+                        <p id="auto-check-msg" style="font-weight: bold; margin-bottom: 10px;"></p>
+                        <p>Het juiste antwoord is: <strong id="correct-answer-display"></strong></p>
+                        <p>Was jouw antwoord goed?</p>
+                        <div class="btn-grid">
+                            <button id="correct-btn" class="correct">Juist</button>
+                            <button id="wrong-btn" class="wrong">Onjuist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="image-container" class="hide">
+                    <img id="quiz-image" src="" alt="Quiz afbeelding">
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Volgende</button>
+        </div>
+        <div id="score-container" class="hide">
+            <p id="score-text"></p>
+            <button onclick="restartQuiz()">Opnieuw beginnen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
