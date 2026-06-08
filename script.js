@@ -107,208 +107,111 @@ const quizData = {
             ]
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wanneer spreekt men volgens het botsingsmodel van een effectieve botsing?',
-            answers: [
-                { text: 'Als de deeltjes met elkaar in contact komen, voldoende kinetische energie bezitten én de juiste oriëntatie hebben.', correct: true },
-                { text: 'Als de botsende deeltjes aan slechts één van de voorwaarden voldoen. ', correct: false },
-                { text: 'Als de moleculen na de botsing volledig ongewijzigd blijven. ', correct: false },
-                { text: 'Als er enkel een verandering van aggregatietoestand optreedt.', correct: false }
-            ]
+            answer: 'Als de deeltjes met elkaar in contact komen, voldoende kinetische energie bezitten én de juiste oriëntatie hebben.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat ontstaat er direct door de opslorping van kinetische energie bij een effectieve botsing? ',
-            answers: [
-                { text: 'Een geactiveerd complex (een onstabiele tussenfase met een hogere energie-inhoud).', correct: true },
-                { text: 'Een stabiel reactieproduct met een lagere energie-inhoud.', correct: false },
-                { text: 'Een inhibitor die de reactie onmiddellijk weer stillegt.', correct: false },
-                { text: 'Een elastische botsing waarbij moleculen ongewijzigd blijven. ', correct: false }
-            ]
+            answer: 'Een geactiveerd complex (een onstabiele tussenfase met een hogere energie-inhoud).'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'De activeringsenergie van de reactie 2NO(g) + Cl2(g) -> 2NOCl(g) is 62kJ en bE = -38kJ. Wat is de activeringsenergie van de omgekeerde reactie? ',
-            answers: [
-                { text: '100kJ ', correct: true },
-                { text: '62kJ', correct: false },
-                { text: '38kJ ', correct: false },
-                { text: '24kJ ', correct: false }
-            ]
+            answer: '100kJ'
+
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat gebeurt er in de regel met de ogenblikkelijke reactiesnelheid naarmate een chemische reactie vordert?',
-            answers: [
-                { text: 'Deze neemt bijna altijd af, omdat er steeds minder deeltjes overblijven om effectief mee te botsen. ', correct: true },
-                { text: 'Deze blijft gedurende de hele reactie perfect constant. ', correct: false },
-                { text: 'Exponentiële stijging tot het einde van de reactie.', correct: false },
-                { text: 'Deze is op elk moment exact gelijk aan de gemiddelde reactiesnelheid.', correct: false }
-            ]
+            answer: 'Deze neemt bijna altijd af, omdat er steeds minder deeltjes overblijven om effectief mee te botsen. '
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'In welke eenheid wordt de (gemiddelde of ogenblikkelijke) reactiesnelheid uitgedrukt? ',
-            answers: [
-                { text: 'mol . L-1 . s-1 ', correct: true },
-                { text: 'mol . L-1 ', correct: false },
-                { text: 'mol . s-1', correct: false },
-                { text: 'kJ . mol-1', correct: false }
-            ]
+            answers: 'mol . L-1 . s-1 '
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat laat een Boltzmann-verdeling simpelweg zien in een gas of vloeistof? ',
-            answers: [
-                { text: 'Hoe de snelheid (of kinetische energie) verdeeld is over de deeltjes. ', correct: true },
-                { text: 'De exacte daling van de activeringsenergie bij een reactie.', correct: false },
-                { text: 'De verhouding tussen het totale volume en de druk van het gas.', correct: false },
-                { text: 'Hoeveel reactieproducten er per seconde worden gevormd.', correct: false }
-            ]
+            answer: 'Hoe de snelheid (of kinetische energie) verdeeld is over de deeltjes. '
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Waarom zorgt een temperatuurverhoging voor een stijging van de reactiesnelheid? ',
-            answers: [
-                { text: 'De deeltjes krijgen een hogere kinetische energie en de kans op effectieve botsingen stijgt.', correct: true },
-                { text: 'De activeringsenergie van de reactie wordt hierdoor permanent verlaagd.', correct: false },
-                { text: 'Het volume van de oplossing neemt af, waardoor de concentratie stijgt.', correct: false },
-                { text: 'De deeltjes krijgen automatisch allemaal de juiste oriëntatie.', correct: false }
-            ]
+            answer: 'De deeltjes krijgen een hogere kinetische energie en de kans op effectieve botsingen stijgt.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat is de invloed van de verdelingsgraad op de reactiesnelheid (bijv. fijn gekliefd aanmaakhout)?',
-            answers: [
-                { text: 'Hoe fijner verdeeld, hoe groter de verhouding contactoppervlak/volume, wat de reactie versnelt.', correct: true },
-                { text: 'Hoe fijner verdeeld, hoe kleiner het contactoppervlak en hoe trager de reactie.', correct: false },
-                { text: 'De verdelingsgraad verandert de chemische samenstelling van de stoffen.', correct: false },
-                { text: 'Fijnere verdeling verlaagt de temperatuur van de reagentia.', correct: false }
-            ]
+            answer: 'Hoe fijner verdeeld, hoe groter de verhouding contactoppervlak/volume, wat de reactie versnelt.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Hoe beïnvloedt een katalysator een chemische reactie?',
-            answers: [
-                { text: 'Het verlaagt de activeringsenergie door een ander geactiveerd complex te vormen, zonder zelf verbruikt te worden. ', correct: true },
-                { text: 'Het verhoogt het uiteindelijke rendement van de reactieproducten.', correct: false },
-                { text: 'Het verhoogt de gemiddelde kinetische energie van de deeltjes.', correct: false },
-                { text: 'Het wordt volledig opgebruikt om extra warmte te genereren.', correct: false }
-            ]
+            answer: 'Het verlaagt de activeringsenergie door een ander geactiveerd complex te vormen, zonder zelf verbruikt te worden. '
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Een klontje suiker blijft op tafel weken liggen, maar wordt in het lichaam van een hond meteen verbrand. Wat is de verklaring? ',
-            answers: [
-                { text: 'Enzymen in het lichaam werken als katalysatoren en verlagen de activeringsenergie. ', correct: true },
-                { text: 'De lichaamstemperatuur van een hond is hoog genoeg om de suiker spontaan te laten smelten.', correct: false },
-                { text: 'In het lichaam reageert de suiker uitsluitend met aanwezige inhibitoren.', correct: false },
-                { text: 'De verdelingsgraad van suiker op tafel is te groot om te kunnen branden.', correct: false }
-            ]
+            answer: 'Enzymen in het lichaam werken als katalysatoren en verlagen de activeringsenergie. '
         }
     ],
     'H5': [
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat is het belangrijkste verschil tussen massa en gewicht?',
-            answers: [
-                { text: 'Massa is de hoeveelheid materie (in kg) en is overal gelijk, terwijl gewicht de kracht is waarmee een voorwerp op een steun drukt (in N) en afhangt van de zwaartekracht.', correct: true },
-                { text: 'Massa verandert naarmate je op een andere planeet bent, gewicht blijft altijd constant.', correct: false },
-                { text: 'Er is geen verschil; beide termen worden in de fysica als synoniemen gebruikt en uitgedrukt in kilogram.', correct: false },
-                { text: 'Gewicht is een eigenschap van een voorwerp in rust, massa meet je pas als een voorwerp versnelt.', correct: false }
-            ]
+            answer: 'Massa is de hoeveelheid materie (in kg) en is overal gelijk, terwijl gewicht de kracht is waarmee een voorwerp op een steun drukt (in N) en afhangt van de zwaartekracht.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Welke wet van Newton stelt dat een voorwerp in rust blijft of met constante snelheid rechtlijnig blijft bewegen als de som van de krachten nul is?',
-            answers: [
-                { text: 'De eerste wet van Newton (Wet van de traagheid / inertie).', correct: true },
-                { text: 'De tweede wet van Newton (De hoofdwet van de mechanica: F = m . a).', correct: false },
-                { text: 'De derde wet van Newton (Actie-reactie).', correct: false },
-                { text: 'De universele gravitatiewet.', correct: false }
-            ]
+            answer: 'De eerste wet van Newton (Wet van de traagheid / inertie).'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Volgens de tweede wet van Newton (F_res = m . a), wat gebeurt er met de versnelling (a) als je de resulterende kracht op een constante massa verdubbelt?',
-            answers: [
-                { text: 'De versnelling wordt twee keer zo groot.', correct: true },
-                { text: 'De versnelling wordt gehalveerd.', correct: false },
-                { text: 'De versnelling blijft exact gelijk, want massa is constant.', correct: false },
-                { text: 'De versnelling neemt viermaal toe vanwege de kwadratische verhouding.', correct: false }
-            ]
+            answer: 'De versnelling wordt twee keer zo groot.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Als een boek op een tafel ligt en er een zwaartekracht op werkt, wat is dan de tegenkracht (reactiekracht) volgens de derde wet van Newton (actie-reactie)?',
-            answers: [
-                { text: 'De normaalkracht die de tafel op het boek uitoefent.', correct: true },
-                { text: 'De wrijvingskracht tussen het boek en de lucht.', correct: false },
-                { text: 'De zwaartekracht waarmee de aarde aan de tafel trekt.', correct: false },
-                { text: 'Er is geen tegenkracht omdat het boek stilligt.', correct: false }
-            ]
+            answer: 'De normaalkracht die de tafel op het boek uitoefent.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat gebeurt er met de remweg van een voertuig als de beginsnelheid verdubbelt (bij gelijkblijvende remkracht)?',
-            answers: [
-                { text: 'De remweg wordt vier keer zo lang, omdat de kinetische energie kwadratisch afhangt van de snelheid.', correct: true },
-                { text: 'De remweg verdubbelt eveneens lineair.', correct: false },
-                { text: 'De remweg blijft gelijk, want de massa van de auto verandert niet.', correct: false },
-                { text: 'De remweg wordt acht keer zo lang.', correct: false }
-            ]
+            answer: 'De remweg wordt vier keer zo lang, omdat de kinetische energie kwadratisch afhangt van de snelheid.'
+
         }
     ],
     'H6': [
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat is de definitie van de amplitude (A) bij een harmonische trilling?',
-            answers: [
-                { text: 'De maximale uitwijking van het trillende voorwerp ten opzichte van de evenwichtsstand.', correct: true },
-                { text: 'De totale afstand die een deeltje aflegt tijdens één volledige cyclus.', correct: false },
-                { text: 'Het aantal volledige trillingen dat per seconde wordt uitgevoerd.', correct: false },
-                { text: 'De tijd die nodig is om één volledige heen- en weergaande beweging te maken.', correct: false }
-            ]
+            answer: 'De maximale uitwijking van het trillende voorwerp ten opzichte van de evenwichtsstand.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Hoe verhouden de frequentie (f in Hz) en de periode (T in s) van een trilling zich tot elkaar?',
-            answers: [
-                { text: 'Ze zijn omgekeerd evenredig met elkaar (f = 1 / T).', correct: true },
-                { text: 'Ze zijn recht evenredig met elkaar (f = T).', correct: false },
-                { text: 'Ze hebben geen wiskundig verband en hangen van andere parameters af.', correct: false },
-                { text: 'De frequentie is altijd het kwadraat van de periode.', correct: false }
-            ]
+            answer: 'Ze zijn omgekeerd evenredig met elkaar (f = 1 / T).'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat is het kenmerkende verschil tussen een transversale golf en een longitudinale golf?',
-            answers: [
-                { text: 'Bij een transversale golf trillen deeltjes loodrecht op de voortplantingsrichting; bij een longitudinale golf trillen ze parallel aan de voortplantingsrichting.', correct: true },
-                { text: 'Transversale golven hebben geen medium nodig; longitudinale golven wel.', correct: false },
-                { text: 'Bij longitudinale golven bewegen de deeltjes fysiek mee met de golf, bij transversale golven blijven ze stilstaan.', correct: false },
-                { text: 'Licht is een longitudinale golf, terwijl geluid een transversale golf is.', correct: false }
-            ]
+            answer: 'Bij een transversale golf trillen deeltjes loodrecht op de voortplantingsrichting; bij een longitudinale golf trillen ze parallel aan de voortplantingsrichting.'
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Als de golflengte (lambda) van een golf halveert terwijl de voortplantingssnelheid (v) constant blijft, wat gebeurt er dan met de frequentie (f)?',
-            answers: [
-                { text: 'De frequentie verdubbelt (v = f . lambda).', correct: true },
-                { text: 'De frequentie halveert eveneens.', correct: false },
-                { text: 'De frequentie blijft ongewijzigd.', correct: false },
-                { text: 'De frequentie wordt vier keer zo klein.', correct: false }
-            ]
+            answer: 'De frequentie verdubbelt (v = f . lambda).'
+
         },
         {
-            type: 'multiple-choice',
+            type: 'open',
             question: 'Wat gebeurt er wanneer twee golftoppen elkaar ontmoeten en er constructieve interferentie optreedt?',
-            answers: [
-                { text: 'De amplitudes versterken elkaar, waardoor een tijdelijk grotere top ontstaat.', correct: true },
-                { text: 'De golven heffen elkaar volledig op, waardoor het medium stilvalt.', correct: false },
-                { text: 'De voortplantingssnelheid van beide golven verdubbelt onmiddellijk.', correct: false },
-                { text: 'De frequentie van de resulterende golf halveert spontaan.', correct: false }
-            ]
+            answer: 'De amplitudes versterken elkaar, waardoor een tijdelijk grotere top ontstaat.'
         }
     ]
 };
