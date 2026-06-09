@@ -8,6 +8,7 @@ const submitButton = document.getElementById('submit-btn');
 const feedbackContainer = document.getElementById('feedback-container');
 const correctAnswerDisplay = document.getElementById('correct-answer-display');
 const autoCheckMsg = document.getElementById('auto-check-msg');
+const userAnswerDisplay = document.getElementById('user-answer-display');
 const correctButton = document.getElementById('correct-btn');
 const wrongButton = document.getElementById('wrong-btn');
 const answerArea = document.getElementById('answer-area');
@@ -339,11 +340,18 @@ function submitAnswer() {
 
     if (currentQuestion.type === 'open') {
         correctAnswerDisplay.innerText = currentQuestion.answer;
+        userAnswerDisplay.innerText = answerInput.value;
         isAutoMatch = normalizeText(answerInput.value) === normalizeText(currentQuestion.answer);
     } else if (currentQuestion.type === 'fill-in') {
         const inputs = fillInContainer.querySelectorAll('.blank-input');
         const answersList = currentQuestion.blanks.map(b => `${b.label}: ${b.answer}`).join(' | ');
         correctAnswerDisplay.innerText = answersList;
+
+        // Toon de ingevulde antwoorden van de gebruiker
+        const userAnswers = Array.from(inputs).map((input, index) => {
+            return `${currentQuestion.blanks[index].label}: ${input.value}`;
+        }).join(' | ');
+        userAnswerDisplay.innerText = userAnswers;
 
         isAutoMatch = currentQuestion.blanks.every((blank, index) => {
             return normalizeText(inputs[index].value) === normalizeText(blank.answer);
